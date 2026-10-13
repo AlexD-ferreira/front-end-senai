@@ -39,7 +39,39 @@
                 <form action="#" method="POST">
                     <fieldset>
                         <legend><b> Comprar Jogos</b></legend>
-                        
+
+                        <label for="Campo-jogo">Selecione a Categotia:</label>
+                        <select name="selecao_jogo" id="campo-jogo" required>
+                            <option value="">Selecione uma opção</option>
+                            <option value="Acao">Ação</option>
+                            <option value="Aventura">Aventura</option>
+                            <option value="RPG">RPG</option>
+                            <option value="Tiro">Tiro</option>
+                            <option value="Esportes">Esportes e Corrida</option>
+                            <option value="Simulação">Simulação</option>
+                        </select>
+
+                        <p><b>Jogos</b></p>
+                        <input type="checkbox" name="jogos[]"
+                        id="jogo-futebol" value="futebol">
+                        <label for="jogo-futebol">Futebol</label>
+
+                        <input type="checkbox" name="jogos[]"
+                        id="jogo-gta" value="gta">
+                        <label for="jogo-gta">GTA VI</label>
+
+                        <input type="checkbox" name="jogos[]"
+                        id="jogo-elden" value="elden">
+                        <label for="jogo-elden">Elden Ring</label>
+
+                        <input type="checkbox" name="jogos[]"
+                        id="jogo-minecraft" value="minecraft">
+                        <label for="jogo-minecraft">Minecraft</label>
+
+                        <input type="checkbox" name="jogos[]"
+                        id="jogo-zelda" value="zelda">
+                        <label for="jogo-zelda">Zelda</label>
+                        <br>
                     </fieldset>
                 </form>
             </section>

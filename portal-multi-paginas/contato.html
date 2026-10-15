@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bks - Internet</title>
+    </head>
+    <body>
+        <header>
+            <h1>BKS INTERNET</h1>
+            <nav>
+                <a href="index.html">Pagina Inicial</a>
+                <a href="planos.html">Planos</a>
+                <a href="#velocidade">Velocidade</a>
+                <a href="#roteadores">Roteadores</a>
+                <a href="contato.html">Entre em Contato</a>
+            </nav>
+        </header>
+        <hr>
+        <main>
+            <section id="contato">
+                <h2>Entre em contato</h2>
+                <p>Preencha os dados abaixo:</p>
+                <forn action="#" method="POST">
+                    <fieldset>
+                        <legend><b> Informações Pessoais</b></legend>
+
+                        <label for="campo-nome">Nome Completo: </label><br>
+                        <input type="text", name="nome_completo" id="campo-nome"
+                        placeholder="Informe seu nome" required size="40"> <br>
+
+                        <label for="campo-email">Email Pessoal: </label><br>
+                        <input type="email", name="email_peassoal" id="campo-email"
+                        placeholder="Informe seu E-mail" required size="40"> <br>
+
+                         <label for="campo-telefone">Número telefone: </label><br>
+                        <input type="tel", name="numero_telefone" id="campo-telefone"
+                        placeholder="Informe seu Telefone" required size="40"> <br>
+
+                        <label for="campo-observacao">Observações ou Duvidas</label><br>
+                        <textarea nome="Observacoes_adcionais" id="campo-observacao" rows="4" cols="50"
+                         placeholder="Infrome aqui suas Duvidas"></textarea><br>
+
+                        <button type="submit"><b>Enviar</b></button>
+                    </fieldset>
+                    <hr>
+                </forn>
+            </section>
+        </main>
+    </body>
+</html>    
